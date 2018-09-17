@@ -1,28 +1,48 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    border background-color: #dddddd;
 }
-style {
-    nav-right: auto;
-    height: 50pt
-    font-family: Arial, Helvetica, sans-serif
-}
-nav ul {
- }
+
+
 nav ul li {
     list-style-type: none;
-    width: 150px; 
+    width: 100px; 
     float: right;
 }
  nav ul li a {
-    text decoration: none;
-    color: #777777
+    color: #777777;
 }
+
  h1{
     background-color: #4aaaa5;
     color: #ffffff;
+    margin-top: 18;
+    width: 334px;
+    height: 77px;
 }
- h2 {color: #4aaaa5}
+#main    {
+    background-color: #dddddd;
+    width: 280px;
+    margin: 50px auto;
+    } 
+
+ h2 {
+     color: #4aaaa5;
 }
+
+#profilepic {
+    float: left;
+    padding: 25px; 
+}
+
  p {
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777
+    color: #777777; 
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
