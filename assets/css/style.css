@@ -2,7 +2,11 @@ html {
     height: 100%;
 }
 
- 
+/* * {
+    border: solid #777777 1px;
+    box-sizing: border-box;
+}  */
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif; 
     font-size: 25px;
@@ -110,9 +114,6 @@ strong {
     border: 1px solid #dddddd;
     background: #FFF; 
     margin: 35px auto 35px auto; 
-} 
-
-.main-content {
     width: 918px;
     height: 500px;
     padding: 30px;
@@ -150,7 +151,54 @@ strong {
     padding: 20px;
 }
 
+/* Portfolio Page Starts Here */
 
+.portfolio {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 25px;
+    width: 70%;
+    margin: 35px;
+}
+
+
+.card {
+    display: flex;
+    position: relative;
+    margin: 5px;
+}
+
+.card img {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.card-title-container {
+    width: 100%;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+}
+
+.card-title {
+    color: #ffffff;
+    background: #4aaaa5;
+    position: absolute;
+    text-align: center;
+    height: 30px;
+    padding-top: 15px;
+    display: block;
+    width: 200px;
+    margin-top:-60px;
+}
+
+.footer.pf {
+    position: relative;
+}
+
+
+/* Contact Form Starts Here */
 
 .contact-form {
     padding: 25px
