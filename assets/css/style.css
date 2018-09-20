@@ -213,13 +213,13 @@ label {
 }
 
 
- footer {
+footer {
     background: #666666;
     border-top: 5px solid #4aaaa5;
     text-align: center;
     height: 90px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0
 }
  
@@ -230,4 +230,5 @@ label {
     width: 1216px;
     height: 18px;
     display: block;
+    margin: 0 auto;
 }
