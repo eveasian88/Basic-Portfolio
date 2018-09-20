@@ -9,8 +9,8 @@ h1 {
     color: #4aaaa5;
     font-weight: bold;
     border-bottom: 3px solid #dddddd;
-    padding-bottom: 2px;
-    margin: 30px 30px 0 28px;
+    padding-bottom: 3px;
+    margin: 33px 33px 0 28px;
 }
 nav ul li {
     list-style-type: none;
@@ -50,7 +50,7 @@ strong {
 
 .main-header {
     background: white;
-    height: 90px;
+    height: 70px;
     border-bottom: 1px solid #cccccc;
 }
 
@@ -63,7 +63,7 @@ strong {
 .logo {
     display: block;
     width: 350px;
-    height: 90px;
+    height: 70px;
     background: #4aaaa5;
     color: #FFF;
     float: left; 
@@ -86,11 +86,13 @@ strong {
 .nav-item { 
     display: inline-block;
     font-size: 16px;
+    display: inline-block;
 }
 
 .nav-item a {
     color: #9A9A9B;
     text-decoration: none;
+    display: inline-block;
 }
  
 .nav-container {
@@ -113,12 +115,12 @@ strong {
 .main-content {
     width: 918px;
     height: 500px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .profile {
     float: left;
-    margin-right: 15px
+    margin-right: 20px
 }
 
 
@@ -144,14 +146,14 @@ strong {
 
 .main-content {
     width: 918px;
-    height: 500px;
+    height: 450px;
     padding: 20px;
 }
 
 
 
 .contact-form {
-    padding: 20px
+    padding: 25px
 }
  
 .form-group {
@@ -175,7 +177,7 @@ textarea placeholder {
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 848px;
+    width: 840px;
 }
 
 input,
@@ -203,13 +205,15 @@ label {
 
 .btn-submit {
     display: block;
-    width: 90px;
-    height: 35px;
+    padding-top: 1px;
+    width: 117px;
+    height: 38px;
+    padding-bottom: 1px;
     color: white;
     background: #4aaaa5;
     font-size: 14px;
     border: 0;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 
@@ -217,7 +221,7 @@ footer {
     background: #666666;
     border-top: 5px solid #4aaaa5;
     text-align: center;
-    height: 90px;
+    height: 70px;
     width: 100%;
     position: fixed;
     bottom: 0
