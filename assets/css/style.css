@@ -155,16 +155,14 @@ strong {
 
 .portfolio {
     display: grid;
-    grid-template-columns: 2fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 25px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-column-gap: 30px;
     width: 70%;
-    margin: 35px;
 }
 
 
 .card {
-    display: flex;
+    display: grid;
     position: relative;
     margin: 5px;
 }
@@ -178,13 +176,13 @@ strong {
     width: 100%;
     background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    position: fixed;
+    position: absolute;
 }
 
 .card-title {
     color: #ffffff;
     background: #4aaaa5;
-    position: absolute;
+    position: relative;
     text-align: center;
     height: 30px;
     padding-top: 15px;
@@ -193,9 +191,9 @@ strong {
     margin-top:-60px;
 }
 
-.footer.pf {
+/* .footer.pf {
     position: relative;
-}
+} */
 
 
 /* Contact Form Starts Here */
@@ -225,7 +223,7 @@ textarea placeholder {
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 840px;
+    width: 830px;
 }
 
 input,
