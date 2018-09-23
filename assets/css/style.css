@@ -2,11 +2,6 @@ html {
     height: 100%;
 }
 
-/* * {
-    border: solid #777777 1px;
-    box-sizing: border-box;
-}  */
-
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif; 
     font-size: 25px;
@@ -16,6 +11,7 @@ h1 {
     padding-bottom: 3px;
     margin: 33px 33px 0 28px;
 }
+
 nav ul li {
     list-style-type: none;
     width: 150px; 
@@ -23,15 +19,6 @@ nav ul li {
     float: right;
 }
 
-
-p {
-    line-height: 25px;
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 16px;
-    color: #777777;
-    text-align-last: auto;
-}
- 
 
 body { 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -43,8 +30,17 @@ body {
 strong { 
     font-weight: 700;
 }
+
+
+p {
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    color: #777777;
+    text-align-last: auto;
+}
  
- 
+  
 .container {
     margin: 0 auto;
     width: 100%;
@@ -151,6 +147,18 @@ strong {
     padding: 20px;
 }
 
+a:hover {
+    color: #4aaaa5;
+    text-decoration: underline
+ }
+ 
+ 
+ a {
+    color: #4aaaa5;
+ }
+
+
+
 /* Portfolio Page Starts Here */
 
 .portfolio {
@@ -191,9 +199,7 @@ strong {
     margin-top:-60px;
 }
 
-/* .footer.pf {
-    position: relative;
-} */
+
 
 
 /* Contact Form Starts Here */
