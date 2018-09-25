@@ -143,20 +143,9 @@ p {
 
 .main-content {
     width: 918px;
-    height: 450px;
+    height: 550px;
     padding: 20px;
 }
-
-a:hover {
-    color: #4aaaa5;
-    text-decoration: underline
- }
- 
- 
- a {
-    color: #4aaaa5;
- }
-
 
 
 /* Portfolio Page Starts Here */
@@ -288,3 +277,14 @@ footer {
     display: block;
     margin: 0 auto;
 }
+
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: underline
+ }
+ 
+ 
+ a {
+    color: #4aaaa5;
+ }
