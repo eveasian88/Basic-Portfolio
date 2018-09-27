@@ -12,6 +12,7 @@ h1 {
     margin: 33px 33px 0 28px;
 }
 
+
 nav ul li {
     list-style-type: none;
     width: 150px; 
@@ -52,6 +53,8 @@ p {
     background: white;
     height: 70px;
     border-bottom: 1px solid #cccccc;
+    position: fixed;
+    width: 100%;
 }
 
 .header-container {
@@ -111,8 +114,8 @@ p {
     background: #FFF; 
     margin: 35px auto 35px auto; 
     width: 918px;
-    height: 550px;
-    padding: 30px;
+    height: 570px;
+  
 }
 
 .profile {
@@ -142,9 +145,9 @@ p {
 } 
 
 .main-content {
-    width: 918px;
+    width: 960px;
     height: 550px;
-    padding: 20px;
+    padding-top: 100px;
 }
 
 
@@ -264,7 +267,7 @@ footer {
     text-align: center;
     height: 70px;
     width: 100%;
-    position: fixed;
+    position: static;
     bottom: 0
 }
  
